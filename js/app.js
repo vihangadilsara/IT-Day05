@@ -146,4 +146,17 @@ console.log(result);
 
 // array
 
-let numbers = [1, 2, 3, 4, 5];
+let numbers = [1, true, 3, "saman", "ranil"];
+
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
+
+let customer = {
+    name: "Saman",
+    age: 18,
+    isAfterAL: false,
+    salary: 7500.0
+}
+
+console.log(customer);
