@@ -129,3 +129,21 @@
 // -------------------------------------------
 
 // function
+
+function add(x, y) {
+    return x + y;
+}
+
+let result = add(10, 20);
+console.log(result);
+
+
+// public static String add(int x, int y) {
+//     return x + y;
+// }
+
+// -------------------------------------------
+
+// array
+
+let numbers = [1, 2, 3, 4, 5];
